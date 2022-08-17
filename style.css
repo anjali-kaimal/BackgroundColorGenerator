@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to right,red,yellow);
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: lightyellow;
+    letter-spacing: .5rem;
+}
+h1{
+    width: 100%;
+}
+h2{
+    color: black;
+}
+h3{
+    letter-spacing: 0rem;;
+}
+#random{
+    font-family: sans-serif;
+    padding: 1rem;
+    border-radius: 50%;
+    color: rgb(24, 2, 2);
+    box-shadow: 0 0.2rem rgba(79, 66, 66, 0.65);
+    font-family: sans-serif;
+    background-color: lightyellow;
+}
+#random:hover{
+    filter: brightness(120%);
+}
+#random:active{
+    transform: scale(0.98);
+    box-shadow: 0 0.2rem rgba(45, 35, 35, 0.1);
+}
