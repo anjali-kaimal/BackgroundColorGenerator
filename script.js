@@ -18,7 +18,7 @@ function getRandomColor(){
         c1.push(Math.floor(Math.random() * 255));
         c2.push(Math.floor(Math.random() * 255));
     }
-      body.style.background="linear-gradient(to right,rgb("+c1[0]+","+c1[1]+","+c1[2]+"),rgb("+c2[0]+","+c2[1]+","+c2[2]+"))";
+     // body.style.background="linear-gradient(to right,rgb("+c1[0]+","+c1[1]+","+c1[2]+"),rgb("+c2[0]+","+c2[1]+","+c2[2]+"))";
   
 }
 
